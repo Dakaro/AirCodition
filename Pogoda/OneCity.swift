@@ -38,7 +38,7 @@ class Weather: ForecastType {
         temperature = inputTemperature
         rain = inputRain
         
-        image = rain > 0.0 ? "rain" : "sun"
+        image = rain > Float(0.0) ? "rain" : "sun"
     }
 }
 
@@ -67,7 +67,7 @@ class AirCondition: ForecastType
                 color = Color.orange
                 text = "zły"
             case CONDITION.MODERATE.rawValue:
-                color = Color.yellow
+                color = Color.brown
                 text = "umiarkowany"
             case CONDITION.GOOD.rawValue:
                 color = Color.mint

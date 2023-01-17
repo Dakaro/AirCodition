@@ -13,7 +13,20 @@ struct PogodaApp: App {
     
     var body: some Scene {
         WindowGroup {
-            OneCityWeatherView( inputWeather: Weather(inputCity: "Krakow", inputHour: "12:00", inputTemperature: 15.0, inputRain: 0.0) )
+            Grid{
+                HStack{
+                Button("-") {
+                    print("odejmuje")
+                    }
+                    Button("+") {
+                        print("dodaje")
+                    }.buttonStyle(.bordered)
+                  
+                }
+                WeatherFactory()
+                AirFactory().padding()
+            }.background(Image("background").resizable().scaledToFill().ignoresSafeArea(.all) ).lineSpacing(10)
+            
         }
     }
 }

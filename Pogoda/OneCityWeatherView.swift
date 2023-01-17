@@ -8,6 +8,9 @@
 import SwiftUI
 import UIKit
 
+
+
+
 struct OneCityWeatherView: View {
 
     var cityWeather: Weather
@@ -16,21 +19,23 @@ struct OneCityWeatherView: View {
     var body: some View {
         
         Grid(content: {
-            Text(cityWeather.city).font(.largeTitle)
+            Text(cityWeather.city).font(.title)
             Image(cityWeather.image).resizable().frame(width: 140, height: 140, alignment: .bottom).foregroundColor(.none)
-        }).padding(.bottom)
+            Text( String(cityWeather.temperature) + " ℃" ).font(.title)
+            
+            
+        }).padding().background(Color(.white.withAlphaComponent(0.3)) ).cornerRadius(15).shadow(radius: 5)
             
     }
     
     init(inputWeather: Weather){
         cityWeather = inputWeather
-        print("balbla")
     }
     
 }
 
 struct OneCityWeatherView_Previews: PreviewProvider {
     static var previews: some View {
-        OneCityWeatherView( inputWeather: Weather(inputCity: "Krakow", inputHour: "12:00", inputTemperature: 15.0, inputRain: 1.0) )
+        OneCityWeatherView( inputWeather: Weather(inputCity: "Kraków", inputHour: "12:00", inputTemperature: 15.0, inputRain: 5.0) )
     }
 }

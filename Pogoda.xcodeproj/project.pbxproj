@@ -15,6 +15,9 @@
 		E74B52BB297582CE00714B6A /* Pogoda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E74B52B9297582CE00714B6A /* Pogoda.xcdatamodeld */; };
 		E74B52C22975851300714B6A /* OneCityWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B52C12975851300714B6A /* OneCityWeatherView.swift */; };
 		E74B52C42975882500714B6A /* OneCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B52C32975882500714B6A /* OneCity.swift */; };
+		E794DF7F2976DAE5008C18A6 /* OneCityAirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E794DF7E2976DAE5008C18A6 /* OneCityAirView.swift */; };
+		E794DF812976E222008C18A6 /* WeatherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E794DF802976E222008C18A6 /* WeatherFactory.swift */; };
+		E794DF832976F0E7008C18A6 /* AirFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E794DF822976F0E7008C18A6 /* AirFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		E74B52BA297582CE00714B6A /* Pogoda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pogoda.xcdatamodel; sourceTree = "<group>"; };
 		E74B52C12975851300714B6A /* OneCityWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCityWeatherView.swift; sourceTree = "<group>"; };
 		E74B52C32975882500714B6A /* OneCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCity.swift; sourceTree = "<group>"; };
+		E794DF7E2976DAE5008C18A6 /* OneCityAirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCityAirView.swift; sourceTree = "<group>"; };
+		E794DF802976E222008C18A6 /* WeatherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFactory.swift; sourceTree = "<group>"; };
+		E794DF822976F0E7008C18A6 /* AirFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				E74B52B9297582CE00714B6A /* Pogoda.xcdatamodeld */,
 				E74B52B4297582CE00714B6A /* Preview Content */,
 				E74B52C12975851300714B6A /* OneCityWeatherView.swift */,
+				E794DF7E2976DAE5008C18A6 /* OneCityAirView.swift */,
+				E794DF802976E222008C18A6 /* WeatherFactory.swift */,
+				E794DF822976F0E7008C18A6 /* AirFactory.swift */,
 			);
 			path = Pogoda;
 			sourceTree = "<group>";
@@ -151,10 +160,13 @@
 			files = (
 				E74B52B8297582CE00714B6A /* Persistence.swift in Sources */,
 				E74B52C42975882500714B6A /* OneCity.swift in Sources */,
+				E794DF7F2976DAE5008C18A6 /* OneCityAirView.swift in Sources */,
+				E794DF832976F0E7008C18A6 /* AirFactory.swift in Sources */,
 				E74B52BB297582CE00714B6A /* Pogoda.xcdatamodeld in Sources */,
 				E74B52B1297582CD00714B6A /* ContentView.swift in Sources */,
 				E74B52C22975851300714B6A /* OneCityWeatherView.swift in Sources */,
 				E74B52AF297582CD00714B6A /* PogodaApp.swift in Sources */,
+				E794DF812976E222008C18A6 /* WeatherFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
