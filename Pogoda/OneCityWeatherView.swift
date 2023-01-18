@@ -20,8 +20,10 @@ struct OneCityWeatherView: View {
         
         Grid(content: {
             Text(cityWeather.city).font(.title)
+            Text( cityWeather.hour ).font(.subheadline)
             Image(cityWeather.image).resizable().frame(width: 140, height: 140, alignment: .bottom).foregroundColor(.none)
             Text( String(cityWeather.temperature) + " ℃" ).font(.title)
+            
             
             
         }).padding().background(Color(.white.withAlphaComponent(0.3)) ).cornerRadius(15).shadow(radius: 5)

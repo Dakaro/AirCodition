@@ -14,18 +14,22 @@ struct PogodaApp: App {
     var body: some Scene {
         WindowGroup {
             Grid{
-                HStack{
-                Button("-") {
+            
+                HStack(alignment: .center, spacing: 10 ) {
+                    Button("Lista jakości") {
                     print("odejmuje")
-                    }
-                    Button("+") {
+                    }.buttonStyle(.borderedProminent)
+                Button("Lista pogody") {
                         print("dodaje")
-                    }.buttonStyle(.bordered)
+                }.buttonStyle(.borderedProminent)
                   
                 }
+                
                 WeatherFactory()
-                AirFactory().padding()
-            }.background(Image("background").resizable().scaledToFill().ignoresSafeArea(.all) ).lineSpacing(10)
+                AirFactory()
+                
+            }.background(Image("background").resizable().scaledToFill().ignoresSafeArea(.all) )
+           
             
         }
     }

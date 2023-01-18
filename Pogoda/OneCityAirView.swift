@@ -20,7 +20,7 @@ struct OneCityAirView: View {
         
         Grid(content: {
             Text(cityAir.city).font(.title)
- 
+            Text( cityAir.hour ).font(.subheadline)
             Text( cityAir.text ).font(.title).foregroundColor(cityAir.color)
             
         }).padding().background(Color(.white.withAlphaComponent(0.8)) ).cornerRadius(15).shadow(radius: 5)
