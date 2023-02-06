@@ -1,0 +1,1049 @@
+{
+  "myList": [
+    {
+      "id": 11916,
+      "onList": false,
+      "stationName": "Augustów, Uzdrowisko"
+    },
+    {
+      "id": 460,
+      "onList": false,
+      "stationName": "Belsk Duży, IGF PAN"
+    },
+    {
+      "id": 236,
+      "onList": false,
+      "stationName": "Biała Podlaska, ul. Orzechowa"
+    },
+    {
+      "id": 11358,
+      "onList": false,
+      "stationName": "Biała, ul. Kmicica"
+    },
+    {
+      "id": 11814,
+      "onList": false,
+      "stationName": "Białystok, al.Piłsudskiego"
+    },
+    {
+      "id": 11174,
+      "onList": false,
+      "stationName": "Białystok, ul. 42 Pułku Piechoty"
+    },
+    {
+      "id": 609,
+      "onList": false,
+      "stationName": "Białystok, ul. Warszawska"
+    },
+    {
+      "id": 605,
+      "onList": false,
+      "stationName": "Białystok, ul. Waszyngtona"
+    },
+    {
+      "id": 789,
+      "onList": false,
+      "stationName": "Bielsko-Biała, ul. Kossak-Szczuckiej"
+    },
+    {
+      "id": 10158,
+      "onList": false,
+      "stationName": "Bielsko-Biała, ul.Partyzantów"
+    },
+    {
+      "id": 612,
+      "onList": false,
+      "stationName": "Borsukowizna, Szkółka Leśna"
+    },
+    {
+      "id": 950,
+      "onList": false,
+      "stationName": "Borówiec, ul. Drapałka"
+    },
+    {
+      "id": 16413,
+      "onList": false,
+      "stationName": "Brzeg, ul. Poprzeczna"
+    },
+    {
+      "id": 156,
+      "onList": false,
+      "stationName": "Bydgoszcz, pl. Poznański"
+    },
+    {
+      "id": 158,
+      "onList": false,
+      "stationName": "Bydgoszcz, ul. Warszawska"
+    },
+    {
+      "id": 11360,
+      "onList": false,
+      "stationName": "Chełm, ul. Połaniecka"
+    },
+    {
+      "id": 164,
+      "onList": false,
+      "stationName": "Ciechocinek, ul. Tężniowa"
+    },
+    {
+      "id": 16406,
+      "onList": false,
+      "stationName": "Cieszyn, ul. Chopina"
+    },
+    {
+      "id": 11,
+      "onList": false,
+      "stationName": "Czerniawa"
+    },
+    {
+      "id": 9000,
+      "onList": false,
+      "stationName": "Czerwionka-Leszczyny, ul. Kopalniana"
+    },
+    {
+      "id": 798,
+      "onList": false,
+      "stationName": "Częstochowa, ul. AK/Jana Pawła II"
+    },
+    {
+      "id": 800,
+      "onList": false,
+      "stationName": "Częstochowa, ul. Baczyńskiego"
+    },
+    {
+      "id": 882,
+      "onList": false,
+      "stationName": "Diabla Góra, Puszcza Borecka"
+    },
+    {
+      "id": 16,
+      "onList": false,
+      "stationName": "Dzierżoniów, ul. Piłsudskiego"
+    },
+    {
+      "id": 805,
+      "onList": false,
+      "stationName": "Dąbrowa Górnicza, ul. Tysiąclecia"
+    },
+    {
+      "id": 9173,
+      "onList": false,
+      "stationName": "Dębica, ul.Grottgera"
+    },
+    {
+      "id": 861,
+      "onList": false,
+      "stationName": "Elbląg, ul. Bażyńskiego"
+    },
+    {
+      "id": 10005,
+      "onList": false,
+      "stationName": "Ełk, ul. Piłsudskiego"
+    },
+    {
+      "id": 291,
+      "onList": false,
+      "stationName": "Gajew, Ujęcie Wody"
+    },
+    {
+      "id": 736,
+      "onList": false,
+      "stationName": "Gdańsk, ul. Leczkowa"
+    },
+    {
+      "id": 731,
+      "onList": false,
+      "stationName": "Gdańsk, ul. Wyzwolenia"
+    },
+    {
+      "id": 732,
+      "onList": false,
+      "stationName": "Gdynia, ul. Porębskiego"
+    },
+    {
+      "id": 809,
+      "onList": false,
+      "stationName": "Gliwice, ul. Mewy"
+    },
+    {
+      "id": 11457,
+      "onList": false,
+      "stationName": "Goczałkowice Zdrój, ul. Parkowa"
+    },
+    {
+      "id": 361,
+      "onList": false,
+      "stationName": "Gorzów Wlkp. ul. Kosynierów Gdyńskich"
+    },
+    {
+      "id": 870,
+      "onList": false,
+      "stationName": "Gołdap, ul. Jaćwieska"
+    },
+    {
+      "id": 11754,
+      "onList": false,
+      "stationName": "Gołuchów, Ujęcie Wody"
+    },
+    {
+      "id": 9994,
+      "onList": false,
+      "stationName": "Grajewo, ul. Wojska Polskiego"
+    },
+    {
+      "id": 466,
+      "onList": false,
+      "stationName": "Granica, KPN"
+    },
+    {
+      "id": 142,
+      "onList": false,
+      "stationName": "Grudziądz, ul. Piłsudskiego"
+    },
+    {
+      "id": 9913,
+      "onList": false,
+      "stationName": "Guty Duże"
+    },
+    {
+      "id": 10018,
+      "onList": false,
+      "stationName": "Głubczyce, ul. Ratuszowa"
+    },
+    {
+      "id": 143,
+      "onList": false,
+      "stationName": "Inowrocław, ul. Solankowa"
+    },
+    {
+      "id": 248,
+      "onList": false,
+      "stationName": "Jarczew, IMGW"
+    },
+    {
+      "id": 631,
+      "onList": false,
+      "stationName": "Jarosław, ul. Pruchnicka"
+    },
+    {
+      "id": 638,
+      "onList": false,
+      "stationName": "Jaslo, ul. Sikorskiego"
+    },
+    {
+      "id": 11855,
+      "onList": false,
+      "stationName": "Jastrzębie-Zdrój, Al.J.Piłsudskiego/Harcerska"
+    },
+    {
+      "id": 16978,
+      "onList": false,
+      "stationName": "Jedlicze, ul. Tokarskich"
+    },
+    {
+      "id": 9153,
+      "onList": false,
+      "stationName": "Jelenia Góra, ul. Ogińskiego"
+    },
+    {
+      "id": 952,
+      "onList": false,
+      "stationName": "Kalisz, ul. Wyszyńskiego"
+    },
+    {
+      "id": 10119,
+      "onList": false,
+      "stationName": "Kaszów"
+    },
+    {
+      "id": 814,
+      "onList": false,
+      "stationName": "Katowice, ul. Kossutha"
+    },
+    {
+      "id": 813,
+      "onList": false,
+      "stationName": "Katowice, ul. Plebiscytowa/A4"
+    },
+    {
+      "id": 16497,
+      "onList": false,
+      "stationName": "Kielce, ul. Jurajska"
+    },
+    {
+      "id": 11195,
+      "onList": false,
+      "stationName": "Kielce, ul. Targowa"
+    },
+    {
+      "id": 16196,
+      "onList": false,
+      "stationName": "Kielce, ul. Warszawska 108"
+    },
+    {
+      "id": 190,
+      "onList": false,
+      "stationName": "Koniczynka, Pojezierze Chełmińskie"
+    },
+    {
+      "id": 902,
+      "onList": false,
+      "stationName": "Konin, ul. Wyszyńskiego"
+    },
+    {
+      "id": 16271,
+      "onList": false,
+      "stationName": "Konstancin-Jeziorna, ul. Żeromskiego"
+    },
+    {
+      "id": 966,
+      "onList": false,
+      "stationName": "Koszalin, ul. Armii Krajowej"
+    },
+    {
+      "id": 11336,
+      "onList": false,
+      "stationName": "Koszalin, ul. Chopina"
+    },
+    {
+      "id": 10834,
+      "onList": false,
+      "stationName": "Koziegłowy, os.Leśne"
+    },
+    {
+      "id": 740,
+      "onList": false,
+      "stationName": "Kościerzyna, ul. Targowa"
+    },
+    {
+      "id": 400,
+      "onList": false,
+      "stationName": "Kraków, Aleja Krasińskiego"
+    },
+    {
+      "id": 10139,
+      "onList": false,
+      "stationName": "Kraków, os. Piastów"
+    },
+    {
+      "id": 11303,
+      "onList": false,
+      "stationName": "Kraków, os. Swoszowice"
+    },
+    {
+      "id": 10447,
+      "onList": false,
+      "stationName": "Kraków, os. Wadów"
+    },
+    {
+      "id": 401,
+      "onList": false,
+      "stationName": "Kraków, ul. Bujaka"
+    },
+    {
+      "id": 402,
+      "onList": false,
+      "stationName": "Kraków, ul. Bulwarowa"
+    },
+    {
+      "id": 10121,
+      "onList": false,
+      "stationName": "Kraków, ul. Dietla"
+    },
+    {
+      "id": 16913,
+      "onList": false,
+      "stationName": "Krapkowice, ul. 3 Maja"
+    },
+    {
+      "id": 9175,
+      "onList": false,
+      "stationName": "Krempna, Ośrodek edukacyjno-muzealny MPN"
+    },
+    {
+      "id": 646,
+      "onList": false,
+      "stationName": "Krosno, ul. Kletówki"
+    },
+    {
+      "id": 11616,
+      "onList": false,
+      "stationName": "Kutno, ul. 1 Maja"
+    },
+    {
+      "id": 568,
+      "onList": false,
+      "stationName": "Kędzierzyn-Koźle, ul. Śmiałego"
+    },
+    {
+      "id": 17182,
+      "onList": false,
+      "stationName": "Kętrzyn, ul. Wojska Polskiego"
+    },
+    {
+      "id": 38,
+      "onList": false,
+      "stationName": "Kłodzko, ul. Szkolna"
+    },
+    {
+      "id": 471,
+      "onList": false,
+      "stationName": "Legionowo, ul. Zegrzyńska"
+    },
+    {
+      "id": 52,
+      "onList": false,
+      "stationName": "Legnica, al. Rzeczypospolitej"
+    },
+    {
+      "id": 743,
+      "onList": false,
+      "stationName": "Liniewko Kościerskie"
+    },
+    {
+      "id": 266,
+      "onList": false,
+      "stationName": "Lublin, ul. Obywatelska"
+    },
+    {
+      "id": 11278,
+      "onList": false,
+      "stationName": "Lubliniec, ul. ks. Szymały"
+    },
+    {
+      "id": 12054,
+      "onList": false,
+      "stationName": "Lwówek Śląski, al. Wojska Polskiego"
+    },
+    {
+      "id": 742,
+      "onList": false,
+      "stationName": "Lębork, ul. Malczewskiego"
+    },
+    {
+      "id": 741,
+      "onList": false,
+      "stationName": "Malbork, ul. Mickiewicza"
+    },
+    {
+      "id": 10794,
+      "onList": false,
+      "stationName": "Małogoszcz, ul. Słoneczna"
+    },
+    {
+      "id": 10438,
+      "onList": false,
+      "stationName": "Mielec, ul. Biernackiego"
+    },
+    {
+      "id": 16216,
+      "onList": false,
+      "stationName": "Międzyrzecz ul. Komisji Edukacji Narodowej"
+    },
+    {
+      "id": 16495,
+      "onList": false,
+      "stationName": "Mosina, ul. Czereśniowa"
+    },
+    {
+      "id": 17138,
+      "onList": false,
+      "stationName": "Muszyna, Lodowisko"
+    },
+    {
+      "id": 16753,
+      "onList": false,
+      "stationName": "Myślenice"
+    },
+    {
+      "id": 9798,
+      "onList": false,
+      "stationName": "Nakło nad Notecią, ul. Św. Wawrzyńca"
+    },
+    {
+      "id": 455,
+      "onList": false,
+      "stationName": "Niepołomice, ul. 3 Maja"
+    },
+    {
+      "id": 659,
+      "onList": false,
+      "stationName": "Nisko, ul. Szklarniowa"
+    },
+    {
+      "id": 11254,
+      "onList": false,
+      "stationName": "Nowa Ruda, ul. Jeziorna"
+    },
+    {
+      "id": 16613,
+      "onList": false,
+      "stationName": "Nowa Sól"
+    },
+    {
+      "id": 769,
+      "onList": false,
+      "stationName": "Nowiny, ul. Parkowa"
+    },
+    {
+      "id": 426,
+      "onList": false,
+      "stationName": "Nowy Sącz, ul. Nadbrzeżna"
+    },
+    {
+      "id": 16894,
+      "onList": false,
+      "stationName": "Nowy Targ, al. Tysiąclecia "
+    },
+    {
+      "id": 8976,
+      "onList": false,
+      "stationName": "Nysa, ul. Rodziewiczówny"
+    },
+    {
+      "id": 584,
+      "onList": false,
+      "stationName": "Olesno, ul. Słowackiego"
+    },
+    {
+      "id": 11301,
+      "onList": false,
+      "stationName": "Olkusz, ul. Cegielniana"
+    },
+    {
+      "id": 877,
+      "onList": false,
+      "stationName": "Olsztyn, ul. Puszkina"
+    },
+    {
+      "id": 590,
+      "onList": false,
+      "stationName": "Opole, os. Armii Krajowej"
+    },
+    {
+      "id": 10374,
+      "onList": false,
+      "stationName": "Opole, ul. Koszyka"
+    },
+    {
+      "id": 74,
+      "onList": false,
+      "stationName": "Osieczów"
+    },
+    {
+      "id": 10030,
+      "onList": false,
+      "stationName": "Ostróda, ul. Piłsudskiego"
+    },
+    {
+      "id": 485,
+      "onList": false,
+      "stationName": "Otwock, ul. Brzozowa"
+    },
+    {
+      "id": 70,
+      "onList": false,
+      "stationName": "Oława, ul. Żołnierzy Armii Krajowej"
+    },
+    {
+      "id": 10814,
+      "onList": false,
+      "stationName": "Oświęcim, ul. J. Bema"
+    },
+    {
+      "id": 314,
+      "onList": false,
+      "stationName": "Pabianice, ul. Konstantynowska"
+    },
+    {
+      "id": 319,
+      "onList": false,
+      "stationName": "Parzniewice, Ujęcie Wody"
+    },
+    {
+      "id": 946,
+      "onList": false,
+      "stationName": "Piaski, Krzyżówka"
+    },
+    {
+      "id": 488,
+      "onList": false,
+      "stationName": "Piastów, ul. Pułaskiego"
+    },
+    {
+      "id": 920,
+      "onList": false,
+      "stationName": "Pila, ul. Kusocińskiego"
+    },
+    {
+      "id": 322,
+      "onList": false,
+      "stationName": "Piotrków Trybunalski, ul. Krakowskie Przedmieście"
+    },
+    {
+      "id": 9218,
+      "onList": false,
+      "stationName": "Pleszew, Al. Mickiewicza"
+    },
+    {
+      "id": 17478,
+      "onList": false,
+      "stationName": "Polanica-Zdrój al. Zwycięzców"
+    },
+    {
+      "id": 16493,
+      "onList": false,
+      "stationName": "Poznań ul. Szwajcarska"
+    },
+    {
+      "id": 778,
+      "onList": false,
+      "stationName": "Połaniec, ul. Ruszczańska"
+    },
+    {
+      "id": 665,
+      "onList": false,
+      "stationName": "Przemyśl, ul. Grunwaldzka"
+    },
+    {
+      "id": 17160,
+      "onList": false,
+      "stationName": "Pułtusk, ul. Adama Mickiewicza 36"
+    },
+    {
+      "id": 497,
+      "onList": false,
+      "stationName": "Płock, ul. Królowej Jadwigi"
+    },
+    {
+      "id": 501,
+      "onList": false,
+      "stationName": "Płock, ul. Reja"
+    },
+    {
+      "id": 10446,
+      "onList": false,
+      "stationName": "Rabka-Zdrój, ul. Orkana"
+    },
+    {
+      "id": 11794,
+      "onList": false,
+      "stationName": "Racibórz, Wojska Polskiego"
+    },
+    {
+      "id": 515,
+      "onList": false,
+      "stationName": "Radom, ul. Tochtermana"
+    },
+    {
+      "id": 331,
+      "onList": false,
+      "stationName": "Radomsko, ul. Rolna"
+    },
+    {
+      "id": 275,
+      "onList": false,
+      "stationName": "Radzyń Podlaski, ul. Sitkowskiego"
+    },
+    {
+      "id": 834,
+      "onList": false,
+      "stationName": "Rybnik, ul. Borki"
+    },
+    {
+      "id": 10414,
+      "onList": false,
+      "stationName": "Rymanów Zdrój, ul. Parkowa"
+    },
+    {
+      "id": 10125,
+      "onList": false,
+      "stationName": "Rzeszów, ul. Piłsudskiego"
+    },
+    {
+      "id": 671,
+      "onList": false,
+      "stationName": "Rzeszów, ul. Rejtana"
+    },
+    {
+      "id": 17179,
+      "onList": false,
+      "stationName": "Rzeszów, ul. Starzyńskiego"
+    },
+    {
+      "id": 17159,
+      "onList": false,
+      "stationName": "Rzeszów, ul. Słocińska"
+    },
+    {
+      "id": 678,
+      "onList": false,
+      "stationName": "Sanok, ul. Sadowa"
+    },
+    {
+      "id": 517,
+      "onList": false,
+      "stationName": "Siedlce, ul. Konarskiego"
+    },
+    {
+      "id": 437,
+      "onList": false,
+      "stationName": "Skawina, os. Ogrody"
+    },
+    {
+      "id": 374,
+      "onList": false,
+      "stationName": "Smolary Bytnickie"
+    },
+    {
+      "id": 16242,
+      "onList": false,
+      "stationName": "Sopot, ul. Bitwy Pod Płowcami"
+    },
+    {
+      "id": 837,
+      "onList": false,
+      "stationName": "Sosnowiec, ul. Lubelska"
+    },
+    {
+      "id": 16265,
+      "onList": false,
+      "stationName": "Stacja mobilna Ustka"
+    },
+    {
+      "id": 785,
+      "onList": false,
+      "stationName": "Starachowice, ul. Złota"
+    },
+    {
+      "id": 12055,
+      "onList": false,
+      "stationName": "Strzegom"
+    },
+    {
+      "id": 10124,
+      "onList": false,
+      "stationName": "Sucha Beskidzka, ul. Nieszczyńskiej"
+    },
+    {
+      "id": 376,
+      "onList": false,
+      "stationName": "Sulęcin ul. Dudka"
+    },
+    {
+      "id": 11154,
+      "onList": false,
+      "stationName": "Suwałki, ul. Pułaskiego 26"
+    },
+    {
+      "id": 16496,
+      "onList": false,
+      "stationName": "Szamotuły, ul. Kołłątaja"
+    },
+    {
+      "id": 9179,
+      "onList": false,
+      "stationName": "Szarów, ul. Spokojna"
+    },
+    {
+      "id": 986,
+      "onList": false,
+      "stationName": "Szczecin, ul. Andrzejewskiego"
+    },
+    {
+      "id": 987,
+      "onList": false,
+      "stationName": "Szczecin, ul. Piłsudskiego"
+    },
+    {
+      "id": 983,
+      "onList": false,
+      "stationName": "Szczecinek, ul. Przemysłowa"
+    },
+    {
+      "id": 443,
+      "onList": false,
+      "stationName": "Szymbark"
+    },
+    {
+      "id": 725,
+      "onList": false,
+      "stationName": "Słupsk, ul. Kniaziewicza"
+    },
+    {
+      "id": 684,
+      "onList": false,
+      "stationName": "Tarnobrzeg, ul. Dąbrowskiej"
+    },
+    {
+      "id": 444,
+      "onList": false,
+      "stationName": "Tarnów, ul. Bitwy pod Studziankami"
+    },
+    {
+      "id": 10120,
+      "onList": false,
+      "stationName": "Tarnów, ul. Ks. Romana Sitko"
+    },
+    {
+      "id": 206,
+      "onList": false,
+      "stationName": "Toruń, ul. Dziewulskiego"
+    },
+    {
+      "id": 208,
+      "onList": false,
+      "stationName": "Toruń, ul. Przy Kaszowniku"
+    },
+    {
+      "id": 145,
+      "onList": false,
+      "stationName": "Toruń, ul. Wały gen. Sikorskiego"
+    },
+    {
+      "id": 449,
+      "onList": false,
+      "stationName": "Trzebinia, os. Związku Walki Młodych"
+    },
+    {
+      "id": 11934,
+      "onList": false,
+      "stationName": "Trzebnica, ul. 3 Maja"
+    },
+    {
+      "id": 841,
+      "onList": false,
+      "stationName": "Tychy, ul. Tołstoja"
+    },
+    {
+      "id": 842,
+      "onList": false,
+      "stationName": "Ustroń, ul. Sanatoryjna"
+    },
+    {
+      "id": 16473,
+      "onList": false,
+      "stationName": "Wadowice, ul. Bałysa"
+    },
+    {
+      "id": 16533,
+      "onList": false,
+      "stationName": "Warszawa, IMiGW"
+    },
+    {
+      "id": 530,
+      "onList": false,
+      "stationName": "Warszawa, al. Niepodległości"
+    },
+    {
+      "id": 10956,
+      "onList": false,
+      "stationName": "Warszawa, ul. Bajkowa"
+    },
+    {
+      "id": 10955,
+      "onList": false,
+      "stationName": "Warszawa, ul. Chrościckiego"
+    },
+    {
+      "id": 552,
+      "onList": false,
+      "stationName": "Warszawa, ul. Kondratowicza"
+    },
+    {
+      "id": 538,
+      "onList": false,
+      "stationName": "Warszawa, ul. Tołstoja"
+    },
+    {
+      "id": 550,
+      "onList": false,
+      "stationName": "Warszawa, ul. Wokalna"
+    },
+    {
+      "id": 109,
+      "onList": false,
+      "stationName": "Wałbrzych, ul. Wysockiego"
+    },
+    {
+      "id": 961,
+      "onList": false,
+      "stationName": "Widuchowa"
+    },
+    {
+      "id": 282,
+      "onList": false,
+      "stationName": "Wilczopole"
+    },
+    {
+      "id": 845,
+      "onList": false,
+      "stationName": "Wodzisław Śląski, ul. Gałczyńskiego"
+    },
+    {
+      "id": 129,
+      "onList": false,
+      "stationName": "Wrocław, al. Wiśniowa"
+    },
+    {
+      "id": 114,
+      "onList": false,
+      "stationName": "Wrocław, ul. Bartnicza"
+    },
+    {
+      "id": 117,
+      "onList": false,
+      "stationName": "Wrocław, wyb. Conrada-Korzeniowskiego"
+    },
+    {
+      "id": 379,
+      "onList": false,
+      "stationName": "Wschowa ul. Kazimierza Wielkiego"
+    },
+    {
+      "id": 9791,
+      "onList": false,
+      "stationName": "Włocławek, ul. Kaliska"
+    },
+    {
+      "id": 225,
+      "onList": false,
+      "stationName": "Włocławek, ul. Okrzei"
+    },
+    {
+      "id": 12016,
+      "onList": false,
+      "stationName": "Włoszczowa, ul. Kilińskiego"
+    },
+    {
+      "id": 11434,
+      "onList": false,
+      "stationName": "Zabierzów, ul. Wapienna"
+    },
+    {
+      "id": 848,
+      "onList": false,
+      "stationName": "Zabrze, ul. M. Curie-Skłodowskiej"
+    },
+    {
+      "id": 459,
+      "onList": false,
+      "stationName": "Zakopane, ul. Sienkiewicza"
+    },
+    {
+      "id": 285,
+      "onList": false,
+      "stationName": "Zamość, ul. Hrubieszowska"
+    },
+    {
+      "id": 11455,
+      "onList": false,
+      "stationName": "Zawiercie, ul. K.I.Gałczyńskiego"
+    },
+    {
+      "id": 600,
+      "onList": false,
+      "stationName": "Zdzieszowice, ul. Piastów"
+    },
+    {
+      "id": 355,
+      "onList": false,
+      "stationName": "Zgierz, ul. Mielczarskiego"
+    },
+    {
+      "id": 134,
+      "onList": false,
+      "stationName": "Zgorzelec, ul. Bohaterów Getta"
+    },
+    {
+      "id": 387,
+      "onList": false,
+      "stationName": "Zielona Góra ul. Krótka"
+    },
+    {
+      "id": 232,
+      "onList": false,
+      "stationName": "Zielonka, Bory Tucholskie"
+    },
+    {
+      "id": 853,
+      "onList": false,
+      "stationName": "Złoty Potok, Leśniczówka"
+    },
+    {
+      "id": 12138,
+      "onList": false,
+      "stationName": "Łagów, ul. Zapłotnia"
+    },
+    {
+      "id": 11554,
+      "onList": false,
+      "stationName": "Łask, ul. Narutowicza"
+    },
+    {
+      "id": 750,
+      "onList": false,
+      "stationName": "Łeba, IMGW"
+    },
+    {
+      "id": 618,
+      "onList": false,
+      "stationName": "Łomża, ul. Sikorskiego"
+    },
+    {
+      "id": 12100,
+      "onList": false,
+      "stationName": "Łuków, Bulwar 100-lecia Odzyskania Niepodległości "
+    },
+    {
+      "id": 10058,
+      "onList": false,
+      "stationName": "Łódź, al. Jana Pawła II"
+    },
+    {
+      "id": 295,
+      "onList": false,
+      "stationName": "Łódź, ul. Czernika"
+    },
+    {
+      "id": 296,
+      "onList": false,
+      "stationName": "Łódź, ul. Gdańska"
+    },
+    {
+      "id": 84,
+      "onList": false,
+      "stationName": "Śnieżka"
+    },
+    {
+      "id": 12038,
+      "onList": false,
+      "stationName": "Świecie, al. Jana Pawła II"
+    },
+    {
+      "id": 16975,
+      "onList": false,
+      "stationName": "Świnoujście, ul. J. Matejki "
+    },
+    {
+      "id": 382,
+      "onList": false,
+      "stationName": "Żary, ul. Szymanowskiego "
+    },
+    {
+      "id": 10554,
+      "onList": false,
+      "stationName": "Żory, Os. Gen. Władysława Sikorskiego"
+    },
+    {
+      "id": 562,
+      "onList": false,
+      "stationName": "Żyrardów, ul. Roosevelta"
+    },
+    {
+      "id": 856,
+      "onList": false,
+      "stationName": "Żywiec, ul. Kopernika"
+    }
+  ]
+}

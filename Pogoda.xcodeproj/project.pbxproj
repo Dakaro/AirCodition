@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7049BB429842529000B7B6C /* JsonViewAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7049BB329842529000B7B6C /* JsonViewAir.swift */; };
+		E7049BB629842967000B7B6C /* jsonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7049BB529842967000B7B6C /* jsonViews.swift */; };
 		E74B52AF297582CD00714B6A /* PogodaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B52AE297582CD00714B6A /* PogodaApp.swift */; };
 		E74B52B1297582CD00714B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B52B0297582CD00714B6A /* ContentView.swift */; };
 		E74B52B3297582CE00714B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74B52B2297582CE00714B6A /* Assets.xcassets */; };
@@ -19,9 +21,13 @@
 		E794DF812976E222008C18A6 /* WeatherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E794DF802976E222008C18A6 /* WeatherFactory.swift */; };
 		E794DF832976F0E7008C18A6 /* AirFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E794DF822976F0E7008C18A6 /* AirFactory.swift */; };
 		E7EAD441297820BF00571CAE /* airCityList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7EAD43F297820BF00571CAE /* airCityList.xcdatamodeld */; };
+		E7FFF9C92987F2B500F8B685 /* zbiorMiast.json in Resources */ = {isa = PBXBuildFile; fileRef = E7FFF9C82987F2B500F8B685 /* zbiorMiast.json */; };
+		E7FFF9CB2988007000F8B685 /* airCityListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFF9CA2988007000F8B685 /* airCityListButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7049BB329842529000B7B6C /* JsonViewAir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewAir.swift; sourceTree = "<group>"; };
+		E7049BB529842967000B7B6C /* jsonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonViews.swift; sourceTree = "<group>"; };
 		E74B52AB297582CD00714B6A /* Pogoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pogoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74B52AE297582CD00714B6A /* PogodaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogodaApp.swift; sourceTree = "<group>"; };
 		E74B52B0297582CD00714B6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,8 @@
 		E794DF802976E222008C18A6 /* WeatherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFactory.swift; sourceTree = "<group>"; };
 		E794DF822976F0E7008C18A6 /* AirFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFactory.swift; sourceTree = "<group>"; };
 		E7EAD440297820BF00571CAE /* airCityList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = airCityList.xcdatamodel; sourceTree = "<group>"; };
+		E7FFF9C82987F2B500F8B685 /* zbiorMiast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = zbiorMiast.json; path = Assets.xcassets/zbiorMiast.json; sourceTree = "<group>"; };
+		E7FFF9CA2988007000F8B685 /* airCityListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airCityListButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 				E794DF802976E222008C18A6 /* WeatherFactory.swift */,
 				E794DF822976F0E7008C18A6 /* AirFactory.swift */,
 				E7EAD43F297820BF00571CAE /* airCityList.xcdatamodeld */,
+				E7049BB329842529000B7B6C /* JsonViewAir.swift */,
+				E7FFF9CA2988007000F8B685 /* airCityListButton.swift */,
+				E7049BB529842967000B7B6C /* jsonViews.swift */,
+				E7FFF9C82987F2B500F8B685 /* zbiorMiast.json */,
 			);
 			path = Pogoda;
 			sourceTree = "<group>";
@@ -151,6 +163,7 @@
 			files = (
 				E74B52B6297582CE00714B6A /* Preview Assets.xcassets in Resources */,
 				E74B52B3297582CE00714B6A /* Assets.xcassets in Resources */,
+				E7FFF9C92987F2B500F8B685 /* zbiorMiast.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,10 +180,13 @@
 				E7EAD441297820BF00571CAE /* airCityList.xcdatamodeld in Sources */,
 				E794DF832976F0E7008C18A6 /* AirFactory.swift in Sources */,
 				E74B52BB297582CE00714B6A /* Pogoda.xcdatamodeld in Sources */,
+				E7049BB629842967000B7B6C /* jsonViews.swift in Sources */,
 				E74B52B1297582CD00714B6A /* ContentView.swift in Sources */,
 				E74B52C22975851300714B6A /* OneCityWeatherView.swift in Sources */,
+				E7049BB429842529000B7B6C /* JsonViewAir.swift in Sources */,
 				E74B52AF297582CD00714B6A /* PogodaApp.swift in Sources */,
 				E794DF812976E222008C18A6 /* WeatherFactory.swift in Sources */,
+				E7FFF9CB2988007000F8B685 /* airCityListButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
