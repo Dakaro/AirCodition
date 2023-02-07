@@ -23,7 +23,6 @@ struct PogodaApp: App {
                         
                         
                         NavigationLink("Lista jakści turbo", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
-
                         
                         Button("Lista pogody") {
                         }.buttonStyle(.borderedProminent)
