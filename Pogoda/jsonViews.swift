@@ -24,4 +24,9 @@ class jsonAir: Codable, Identifiable{
 class AirList: Codable{
     
    var myList: [jsonAir]
+    
+    init(myList: [jsonAir]) {
+        self.myList = myList
+    }
+    
 }

@@ -9,14 +9,20 @@ import SwiftUI
 
 struct airCityListButton: View {
     
-    var airList: [jsonAir]
+     @State private  var boolList: [jsonAir]
+    @Environment(\.dismiss) private var dismiss
 
-    @State var boolList: [jsonAir]
-    
+    var airList: [jsonAir]
+    var temporatyList: [Int]
+
     init(inputList: [jsonAir]){
+        
         airList = inputList
-        boolList = inputList
+        _boolList = State(initialValue: inputList)
+        temporatyList = []
     }
+    
+
     
     var body: some View {
         
@@ -26,8 +32,11 @@ struct airCityListButton: View {
                 Toggle(myVar?.stationName ?? "city" , isOn: tmp.onList)
             }
         }
-        
-        .navigationBarItems(leading: Button("przycisk", action: { print("wracam") } ) )
+        .navigationBarBackButtonHidden()
+        .navigationBarItems(leading: Button("powrót", action: {
+            writeToLocalFile(name: "zbiorMiast", airArray: boolList)
+            dismiss()
+        } ) )
     }
 }
     

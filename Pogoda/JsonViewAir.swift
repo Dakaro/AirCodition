@@ -18,11 +18,38 @@ func getAirArray() -> [jsonAir]{
     return  parseToAir(jsonData: airData)
     
 }
+
+func writeToLocalFile(name: String, airArray: [jsonAir]){
+    let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+    let myURL = dir!.appendingPathComponent(name)
+    let encoder = JSONEncoder()
+    
+    do {
+        
+        var myJSONList: AirList = AirList(myList: airArray)
+        
+        let jsonData = try JSONEncoder().encode(myJSONList)
+        try jsonData.write(to: myURL)
+        print("zapisuje do JSONA")
+        
+        /// zpapisuje dobrze tylko nie wiadomo gdzie
+        
+        let decodedData = try JSONDecoder().decode(AirList.self, from: jsonData)
+        
+        decodedData.myList.forEach{
+            tmp in print(tmp.stationName + " \(tmp.onList)" )
+        }
+        
+    } catch {
+        print("write file error")
+     print(error)
+    }
+    
+}
     
     func readLocalFile(forName name: String) -> Data? {
         do {
-            if let bundlePath = Bundle.main.path(forResource: name,
-                                                 ofType: "json"),
+            if let bundlePath = Bundle.main.path(forResource: name,ofType: "json"),
                 let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
                 print("my data: " , jsonData.debugDescription)
                 return jsonData

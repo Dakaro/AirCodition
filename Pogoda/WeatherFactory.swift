@@ -19,6 +19,10 @@ struct WeatherFactory: View {
             }.padding()
         }
     }
+    
+    
+    
+    
 }
 
 struct WeatherFactory_Previews: PreviewProvider {

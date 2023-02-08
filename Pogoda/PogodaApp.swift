@@ -22,8 +22,8 @@ struct PogodaApp: App {
                     HStack(alignment: .center, spacing: 10 ) {
                         
                         
-                        NavigationLink("Lista jakści turbo", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
                         
+                        NavigationLink("Lista jakści turbo", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
                         Button("Lista pogody") {
                         }.buttonStyle(.borderedProminent)
                         
