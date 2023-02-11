@@ -9,14 +9,13 @@ import Foundation
 import SwiftUI
 
 
-
+// always return current air array
 func getAirArray() -> [jsonAir]{
-    
-    
+
     let airData = readLocalFile(forName: "zbiorMiast")
     
     return  parseToAir(jsonData: airData)
-    
+
 }
 
 func writeToLocalFile(name: String, airArray: [jsonAir]){

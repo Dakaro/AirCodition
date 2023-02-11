@@ -11,11 +11,15 @@ struct AirFactory: View {
     var body: some View {
         ScrollView(.horizontal){
             LazyHStack(alignment: .center, spacing: 10.0){
-                OneCityAirView( inputAir: AirCondition(inputCity: "Kraków1", inputHour: "11:00", inputCondition: 0) )
-                OneCityAirView( inputAir: AirCondition(inputCity: "Kraków2", inputHour: "11:00", inputCondition: -1) )
-                OneCityAirView( inputAir: AirCondition(inputCity: "Kraków3", inputHour: "11:00", inputCondition: 1) )
-                OneCityAirView( inputAir: AirCondition(inputCity: "Kraków4", inputHour: "11:00", inputCondition: 2) )
-                OneCityAirView( inputAir: AirCondition(inputCity: "Kraków5", inputHour: "11:00", inputCondition: 3) )
+
+                ForEach(getAirArray(), id: \.id){
+                    tmp in
+                    if tmp.onList == true {
+                        var myItem = loadAirData(tmp.id)
+                        AirCondition(inputCity: tmp.stationName, inputHour: myItem.hour , inputCondition: myItem.id)
+                    }
+                }
+
             }.padding()
         }
     }

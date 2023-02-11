@@ -20,9 +20,7 @@ struct PogodaApp: App {
                 
                 Grid{
                     HStack(alignment: .center, spacing: 10 ) {
-                        
-                        
-                        
+
                         NavigationLink("Lista jakści turbo", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
                         Button("Lista pogody") {
                         }.buttonStyle(.borderedProminent)
@@ -31,7 +29,7 @@ struct PogodaApp: App {
                     
                     WeatherFactory()
                     AirFactory()
-                    
+                    locationView()
                     
                 }.background(Image("croatia").resizable().scaledToFill().ignoresSafeArea(.all) )
                 
