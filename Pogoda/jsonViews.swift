@@ -30,3 +30,25 @@ class AirList: Codable{
     }
     
 }
+
+class jsonWeather: Codable, Identifable{
+    var id: Int
+    var stationName: String
+    var onList: Bool
+
+    init(id: Int, onList: Bool, stationName: String) {
+        self.id = id
+        self.onList = onList
+        self.stationName = stationName
+    }
+}
+
+class WeatherList: Codable{
+
+    var myListWeather: [jsonWeather]
+
+    init(myListWeather: [jsonWeather]) {
+        self.myListWeather = myListWeather
+    }
+
+}

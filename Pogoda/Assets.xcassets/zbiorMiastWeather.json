@@ -1,0 +1,314 @@
+{
+ "myListWeather" : [
+  {
+    "id": "12295",
+    "stationName": "Białystok",
+    "onList": false
+  },
+  {
+    "id": "12600",
+    "stationName": "Bielsko Biała",
+    "onList": false
+  },
+  {
+    "id": "12235",
+    "stationName": "Chojnice",
+    "onList": false
+  },
+  {
+    "id": "12550",
+    "stationName": "Częstochowa",
+    "onList": false
+  },
+  {
+    "id": "12160",
+    "stationName": "Elbląg",
+    "onList": false
+  },
+  {
+    "id": "12155",
+    "stationName": "Gdańsk",
+    "onList": false
+  },
+  {
+    "id": "12300",
+    "stationName": "Gorzów",
+    "onList": false
+  },
+  {
+    "id": "12135",
+    "stationName": "Hel",
+    "onList": false
+  },
+  {
+    "id": "12500",
+    "stationName": "Jelenia Góra",
+    "onList": false
+  },
+  {
+    "id": "12435",
+    "stationName": "Kalisz",
+    "onList": false
+  },
+  {
+    "id": "12650",
+    "stationName": "Kasprowy Wierch",
+    "onList": false
+  },
+  {
+    "id": "12560",
+    "stationName": "Katowice",
+    "onList": false
+  },
+  {
+    "id": "12185",
+    "stationName": "Kętrzyn",
+    "onList": false
+  },
+  {
+    "id": "12570",
+    "stationName": "Kielce",
+    "onList": false
+  },
+  {
+    "id": "12520",
+    "stationName": "Kłodzko",
+    "onList": false
+  },
+  {
+    "id": "12345",
+    "stationName": "Koło",
+    "onList": false
+  },
+  {
+    "id": "12100",
+    "stationName": "Kołobrzeg",
+    "onList": false
+  },
+  {
+    "id": "12105",
+    "stationName": "Koszalin",
+    "onList": false
+  },
+  {
+    "id": "12488",
+    "stationName": "Kozienice",
+    "onList": false
+  },
+  {
+    "id": "12566",
+    "stationName": "Kraków",
+    "onList": false
+  },
+  {
+    "id": "12670",
+    "stationName": "Krosno",
+    "onList": false
+  },
+  {
+    "id": "12415",
+    "stationName": "Legnica",
+    "onList": false
+  },
+  {
+    "id": "12690",
+    "stationName": "Lesko",
+    "onList": false
+  },
+  {
+    "id": "12418",
+    "stationName": "Leszno",
+    "onList": false
+  },
+  {
+    "id": "12125",
+    "stationName": "Lębork",
+    "onList": false
+  },
+  {
+    "id": "12495",
+    "stationName": "Lublin",
+    "onList": false
+  },
+  {
+    "id": "12120",
+    "stationName": "Łeba",
+    "onList": false
+  },
+  {
+    "id": "12465",
+    "stationName": "Łódź",
+    "onList": false
+  },
+  {
+    "id": "12280",
+    "stationName": "Mikołajki",
+    "onList": false
+  },
+  {
+    "id": "12270",
+    "stationName": "Mława",
+    "onList": false
+  },
+  {
+    "id": "12660",
+    "stationName": "Nowy Sącz",
+    "onList": false
+  },
+  {
+    "id": "12272",
+    "stationName": "Olsztyn",
+    "onList": false
+  },
+  {
+    "id": "12530",
+    "stationName": "Opole",
+    "onList": false
+  },
+  {
+    "id": "12285",
+    "stationName": "Ostrołęka",
+    "onList": false
+  },
+  {
+    "id": "12230",
+    "stationName": "Piła",
+    "onList": false
+  },
+  {
+    "id": "12001",
+    "stationName": "Platforma",
+    "onList": false
+  },
+  {
+    "id": "12360",
+    "stationName": "Płock",
+    "onList": false
+  },
+  {
+    "id": "12330",
+    "stationName": "Poznań",
+    "onList": false
+  },
+  {
+    "id": "12695",
+    "stationName": "Przemyśl",
+    "onList": false
+  },
+  {
+    "id": "12540",
+    "stationName": "Racibórz",
+    "onList": false
+  },
+  {
+    "id": "12210",
+    "stationName": "Resko",
+    "onList": false
+  },
+  {
+    "id": "12580",
+    "stationName": "Rzeszów",
+    "onList": false
+  },
+  {
+    "id": "12585",
+    "stationName": "Sandomierz",
+    "onList": false
+  },
+  {
+    "id": "12385",
+    "stationName": "Siedlce",
+    "onList": false
+  },
+  {
+    "id": "12310",
+    "stationName": "Słubice",
+    "onList": false
+  },
+  {
+    "id": "12469",
+    "stationName": "Sulejów",
+    "onList": false
+  },
+  {
+    "id": "12195",
+    "stationName": "Suwałki",
+    "onList": false
+  },
+  {
+    "id": "12205",
+    "stationName": "Szczecin",
+    "onList": false
+  },
+  {
+    "id": "12215",
+    "stationName": "Szczecinek",
+    "onList": false
+  },
+  {
+    "id": "12510",
+    "stationName": "Śnieżka",
+    "onList": false
+  },
+  {
+    "id": "12200",
+    "stationName": "Świnoujście",
+    "onList": false
+  },
+  {
+    "id": "12575",
+    "stationName": "Tarnów",
+    "onList": false
+  },
+  {
+    "id": "12399",
+    "stationName": "Terespol",
+    "onList": false
+  },
+  {
+    "id": "12250",
+    "stationName": "Toruń",
+    "onList": false
+  },
+  {
+    "id": "12115",
+    "stationName": "Ustka",
+    "onList": false
+  },
+  {
+    "id": "12375",
+    "stationName": "Warszawa",
+    "onList": false
+  },
+  {
+    "id": "12455",
+    "stationName": "Wieluń",
+    "onList": false
+  },
+  {
+    "id": "12497",
+    "stationName": "Włodawa",
+    "onList": false
+  },
+  {
+    "id": "12424",
+    "stationName": "Wrocław",
+    "onList": false
+  },
+  {
+    "id": "12625",
+    "stationName": "Zakopane",
+    "onList": false
+  },
+  {
+    "id": "12595",
+    "stationName": "Zamość",
+    "onList": false
+  },
+  {
+    "id": "12400",
+    "stationName": "Zielona Góra",
+    "onList": false
+  }
+]
+}

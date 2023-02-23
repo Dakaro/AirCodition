@@ -1,8 +1,5 @@
 //
-//  JsonViewAir.swift
-//  Pogoda
-//
-//  Created by Student1 on 27/01/2023.
+// Created by Dawid on 23.02.2023.
 //
 
 import Foundation
@@ -10,7 +7,7 @@ import SwiftUI
 import CoreData
 
 func deleteAll() {
-    var fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "AirCity")
+    var fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "WeatherCity")
     var deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
     do {
         let context = PersistenceController.shared.container.viewContext
@@ -19,17 +16,17 @@ func deleteAll() {
         print(error)
     }
 }
-// always return current air array
-func getAirArray() -> [jsonAir] {
-    let request: NSFetchRequest<AirCity> = AirCity.fetchRequest()
+// always return current weather array
+func getWeatherArray() -> [jsonWeather] {
+    let request: NSFetchRequest<WeatherCity> = WeatherCity.fetchRequest()
     let context = PersistenceController.shared.container.viewContext
     do {
         let dataArray = try context.fetch(request)
         if dataArray.isEmpty {
-            return parseToAir(jsonData: readLocalFile(forName: "zbiorMiast"))
+            return parseToWeaher(jsonData: readLocalFile(forName: "zbiorMiastWeather"))
         }
-        return dataArray.compactMap { airCity in
-            jsonAir(id: Int(airCity.cityId), onList: airCity.onList, stationName: airCity.cityName ?? "")
+        return dataArray.compactMap { weatherCity in
+            jsonWeather(id: Int(weatherCity.cityId), onList: weatherCity.onList, stationName: weatherCity.cityName ?? "")
         }
     } catch {
         print("error reading coredata")
@@ -37,14 +34,14 @@ func getAirArray() -> [jsonAir] {
     return []
 }
 
-func writeToLocalFile(name: String, airArray: [jsonAir]) {
+func writeToLocalFile(name: String, weatherArray: [jsonWeather]) {
     deleteAll()
-    airArray.forEach { jsonAir in
+    weatherArray.forEach { jsonWeather in
         let context = PersistenceController.shared.container.viewContext
-        let city = AirCity(context: context)
-        city.cityName = jsonAir.stationName
-        city.cityId = Int16(jsonAir.id)
-        city.onList = jsonAir.onList
+        let city = WeatherCity(context: context)
+        city.cityName = jsonWeather.stationName
+        city.cityId = Int16(jsonWeather.id)
+        city.onList = jsonWeather.onList
         if context.hasChanges {
             do {
                 try context.save()
@@ -78,24 +75,24 @@ func readLocalFile(forName name: String) -> Data? {
             print(error)
         }
     }
-    
+
     return nil
 }
 
 
-func parseToAir(jsonData: Data?) -> [jsonAir] {
-    
-    var result = [jsonAir(id: 0, onList: false, stationName: "brak")]
+func parseToWeather(jsonData: Data?) -> [jsonWeather] {
+
+    var result = [jsonWeather(id: 0, onList: false, stationName: "brak")]
     do {
         if( jsonData != nil ){
-            let decodedData = try JSONDecoder().decode(AirList.self, from: jsonData!)
-            result = decodedData.myList
+            let decodedData = try JSONDecoder().decode(WeatherList.self, from: jsonData!)
+            result = decodedData.myListWeather
         }
     } catch {
         print("decode error")
-        
+
     }
-    
+
     return result
 }
 

@@ -10,7 +10,9 @@ import Combine
 
 struct locationView: View {
     @ObservedObject var lm = LocationManager()
-    var placemark: String { return("\(lm.placemark?.description ?? "lokalizacja niedostępna") " ) }
+    var placemark: String {
+        return("\(lm.placemark?.description ?? "lokalizacja niedostępna") " )
+    }
 
     var body: some View{
         Text( "\(self.placemark)" )
@@ -61,4 +63,8 @@ class LocationManager: NSObject, ObservableObject {
         })
 
     }
+}
+
+extension LocationManager: CLLocationManagerDelegate {
+    
 }

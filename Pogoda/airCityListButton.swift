@@ -9,7 +9,7 @@ import SwiftUI
 
 struct airCityListButton: View {
     
-     @State private  var boolList: [jsonAir]
+     @State private var boolList: [jsonAir]
     @Environment(\.dismiss) private var dismiss
 
     var airList: [jsonAir]
@@ -33,7 +33,7 @@ struct airCityListButton: View {
             }
         }
         .navigationBarBackButtonHidden()
-        .navigationBarItems(leading: Button("powrót", action: {
+        .navigationBarItems(leading: Button("Zapisz i wyjdź", action: {
             writeToLocalFile(name: "zbiorMiast", airArray: boolList)
             dismiss()
         } ) )

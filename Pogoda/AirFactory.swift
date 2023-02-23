@@ -8,19 +8,42 @@
 import SwiftUI
 
 struct AirFactory: View {
-    var body: some View {
-        ScrollView(.horizontal){
-            LazyHStack(alignment: .center, spacing: 10.0){
-
-                ForEach(getAirArray(), id: \.id){
-                    tmp in
-                    if tmp.onList == true {
-                        var myItem = loadAirData(tmp.id)
-                        AirCondition(inputCity: tmp.stationName, inputHour: myItem.hour , inputCondition: myItem.id)
-                    }
+    
+    @State var data = [AirCondition]()
+    
+    func getAll() {
+        let group = DispatchGroup()
+        var airConditions = [AirCondition]()
+        let array = getAirArray()
+        
+        for tmp in array {
+            if tmp.onList == true {
+                group.enter()
+                loadAirData(inputId: tmp.id) { myItem in
+                    airConditions.append(AirCondition(inputCity: tmp.stationName, inputHour: myItem.hour , inputCondition: myItem.id))
+                    group.leave()
                 }
-
-            }.padding()
+            }
+        }
+        group.notify(queue: .main) {
+            DispatchQueue.main.async {
+                self.data = []
+                for cond in airConditions {
+                    self.data.append(cond)
+                }
+            }
+        }
+    }
+    
+    var body: some View {
+        ScrollView(.horizontal) {
+            LazyHStack(alignment: .center, spacing: 10.0) {
+                ForEach(data, id: \.city) { item in
+                    OneCityAirView(inputAir: item)
+                }
+            }.padding().onAppear {
+                getAll()
+            }
         }
     }
 }

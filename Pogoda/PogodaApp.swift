@@ -12,6 +12,7 @@ struct PogodaApp: App {
     let persistenceController = PersistenceController.shared
     
     var airArray = getAirArray()
+    var weatherArray = getWeatherArray()
     
     var body: some Scene {
         
@@ -21,12 +22,11 @@ struct PogodaApp: App {
                 Grid{
                     HStack(alignment: .center, spacing: 10 ) {
 
-                        NavigationLink("Lista jakści turbo", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
-                        Button("Lista pogody") {
-                        }.buttonStyle(.borderedProminent)
+                        NavigationLink("Lista jakości", destination: airCityListButton(inputList: airArray) ).buttonStyle(.borderedProminent)
+                        NavigationLink("Lista pogody", destination: weatherCityListButton(inputList: weatherArray) ).buttonStyle(.borderedProminent)
                         
                     }
-                    
+
                     WeatherFactory()
                     AirFactory()
                     locationView()
