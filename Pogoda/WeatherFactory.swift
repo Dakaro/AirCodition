@@ -12,15 +12,15 @@ struct WeatherFactory: View {
     @State var data = [Weather]()
 
     func getAll(){
+        
         let group = DispatchGroup()
         var weathers = [Weather]()
         var array = getWeatherArray()
-
         for tmp in array {
             if tmp.onList == true {
                 group.enter()
                 loadWeatherData(inputId: tmp.id) { myItem in
-                    weathers.append(Weather(inputCity: tmp.cityName, inputHour: myItem.hour, inputTemperature: myItem.temperature, inputRain: myItem.rain ))
+                    weathers.append(Weather(inputCity: tmp.stationName, inputHour: myItem.hour, inputTemperature: myItem.temperatura, inputRain: myItem.suma_opadu))
                     group.leave()
                 }
             }
@@ -47,10 +47,6 @@ struct WeatherFactory: View {
             }
         }
     }
-    
-    
-    
-    
 }
 
 struct WeatherFactory_Previews: PreviewProvider {

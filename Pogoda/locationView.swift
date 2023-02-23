@@ -7,15 +7,18 @@ import SwiftUI
 import CoreLocationUI
 import CoreLocation
 import Combine
-
+//50.031 19.9065
 struct locationView: View {
     @ObservedObject var lm = LocationManager()
     var placemark: String {
-        return("\(lm.placemark?.description ?? "lokalizacja niedostępna") " )
+        if let street = lm.placemark?.name, let city = lm.placemark?.locality {
+            return "\(city)\n\(street)"
+        }
+        return "lokalizacja niedostępna"
     }
 
-    var body: some View{
-        Text( "\(self.placemark)" )
+    var body: some View {
+        Button("\(self.placemark)"){}.padding().buttonStyle(.borderedProminent).tint(.black).font(.footnote)
     }
 }
 
@@ -46,6 +49,9 @@ class LocationManager: NSObject, ObservableObject {
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
+        locationManager.requestLocation()
+        
+        
     }
 
     @Published var placemark: CLPlacemark? {
@@ -55,7 +61,9 @@ class LocationManager: NSObject, ObservableObject {
     private func geocode() {
         guard let location = self.location else { return }
         geocoder.reverseGeocodeLocation(location, completionHandler: { (places, error) in
+            
             if error == nil {
+                
                 self.placemark = places?[0]
             } else {
                 self.placemark = nil
@@ -66,5 +74,15 @@ class LocationManager: NSObject, ObservableObject {
 }
 
 extension LocationManager: CLLocationManagerDelegate {
+    func locationManager(
+        _ manager: CLLocationManager,
+        didUpdateLocations locations: [CLLocation]
+    ) {
+        self.location = locations.first
+        geocode()
+    }
     
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
 }

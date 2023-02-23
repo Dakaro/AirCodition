@@ -6,9 +6,9 @@ import Foundation
 import SwiftUI
 import CoreData
 
-func deleteAll() {
-    var fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "WeatherCity")
-    var deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+func deleteAllWeather() {
+    let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "WeatherCity")
+    let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
     do {
         let context = PersistenceController.shared.container.viewContext
         try PersistenceController.shared.container.persistentStoreCoordinator.execute(deleteRequest, with: context)
@@ -21,9 +21,10 @@ func getWeatherArray() -> [jsonWeather] {
     let request: NSFetchRequest<WeatherCity> = WeatherCity.fetchRequest()
     let context = PersistenceController.shared.container.viewContext
     do {
+        
         let dataArray = try context.fetch(request)
         if dataArray.isEmpty {
-            return parseToWeaher(jsonData: readLocalFile(forName: "zbiorMiastWeather"))
+            return parseToWeather(jsonData: readLocalFileWeather(forName: "zbiorMiastWeather"))
         }
         return dataArray.compactMap { weatherCity in
             jsonWeather(id: Int(weatherCity.cityId), onList: weatherCity.onList, stationName: weatherCity.cityName ?? "")
@@ -35,7 +36,7 @@ func getWeatherArray() -> [jsonWeather] {
 }
 
 func writeToLocalFile(name: String, weatherArray: [jsonWeather]) {
-    deleteAll()
+    deleteAllWeather()
     weatherArray.forEach { jsonWeather in
         let context = PersistenceController.shared.container.viewContext
         let city = WeatherCity(context: context)
@@ -52,7 +53,7 @@ func writeToLocalFile(name: String, weatherArray: [jsonWeather]) {
     }
 }
 
-func readLocalFile(forName name: String) -> Data? {
+func readLocalFileWeather(forName name: String) -> Data? {
     do {
         let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
         let myURL = dir!.appendingPathComponent(name)
@@ -84,13 +85,13 @@ func parseToWeather(jsonData: Data?) -> [jsonWeather] {
 
     var result = [jsonWeather(id: 0, onList: false, stationName: "brak")]
     do {
-        if( jsonData != nil ){
-            let decodedData = try JSONDecoder().decode(WeatherList.self, from: jsonData!)
+        if let jsonData = jsonData {
+            let decodedData = try JSONDecoder().decode(WeatherList.self, from: jsonData)
+            
             result = decodedData.myListWeather
         }
     } catch {
         print("decode error")
-
     }
 
     return result

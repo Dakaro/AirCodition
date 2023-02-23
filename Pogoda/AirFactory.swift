@@ -20,7 +20,7 @@ struct AirFactory: View {
             if tmp.onList == true {
                 group.enter()
                 loadAirData(inputId: tmp.id) { myItem in
-                    airConditions.append(AirCondition(inputCity: tmp.stationName, inputHour: myItem.hour , inputCondition: myItem.id))
+                    airConditions.append(AirCondition(inputCity: tmp.stationName, inputHour: myItem.hour, inputCondition: myItem.id))
                     group.leave()
                 }
             }

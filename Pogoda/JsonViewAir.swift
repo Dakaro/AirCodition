@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import CoreData
 
-func deleteAll() {
+func deleteAllAIR() {
     var fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "AirCity")
     var deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
     do {
@@ -26,7 +26,7 @@ func getAirArray() -> [jsonAir] {
     do {
         let dataArray = try context.fetch(request)
         if dataArray.isEmpty {
-            return parseToAir(jsonData: readLocalFile(forName: "zbiorMiast"))
+            return parseToAir(jsonData: readLocalFileAIR(forName: "zbiorMiast"))
         }
         return dataArray.compactMap { airCity in
             jsonAir(id: Int(airCity.cityId), onList: airCity.onList, stationName: airCity.cityName ?? "")
@@ -38,7 +38,7 @@ func getAirArray() -> [jsonAir] {
 }
 
 func writeToLocalFile(name: String, airArray: [jsonAir]) {
-    deleteAll()
+    deleteAllAIR()
     airArray.forEach { jsonAir in
         let context = PersistenceController.shared.container.viewContext
         let city = AirCity(context: context)
@@ -55,7 +55,7 @@ func writeToLocalFile(name: String, airArray: [jsonAir]) {
     }
 }
 
-func readLocalFile(forName name: String) -> Data? {
+func readLocalFileAIR(forName name: String) -> Data? {
     do {
         let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
         let myURL = dir!.appendingPathComponent(name)

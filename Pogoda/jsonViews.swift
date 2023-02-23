@@ -31,7 +31,7 @@ class AirList: Codable{
     
 }
 
-class jsonWeather: Codable, Identifable{
+class jsonWeather: Codable, Identifiable {
     var id: Int
     var stationName: String
     var onList: Bool
@@ -43,12 +43,12 @@ class jsonWeather: Codable, Identifable{
     }
 }
 
-class WeatherList: Codable{
+class WeatherList: Codable {
 
-    var myListWeather: [jsonWeather]
+    let myListWeather: [jsonWeather]
 
-    init(myListWeather: [jsonWeather]) {
-        self.myListWeather = myListWeather
-    }
+//    init(myListWeather: [jsonWeather]) {
+//        self.myListWeather = myListWeather
+//    }
 
 }
